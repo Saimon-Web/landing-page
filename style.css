@@ -1,0 +1,44 @@
+/* font link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+main{
+    background-color: #b2b0bb;
+    padding: 30px;
+
+}
+.one-section{
+    background-color: #FFFFFF;
+     width: 870px;
+     margin: 0 auto;
+     height: 670px;
+     
+}
+.one-section-title{
+    color: #562EFF;
+    font-size: 24px;
+    padding-left: 30px;
+    padding-top: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.all-player{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 30px;
+    padding: 30px;
+}
+.single-player{
+   display: flex;
+   align-items: center;
+}
+.player-image img{
+    width: 56px;
+    height: 56px;
+}
+.player-name{
+    margin-left: 18px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
