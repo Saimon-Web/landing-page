@@ -170,4 +170,39 @@ span{
     }
 }
 
+@media only screen and (min-width:688px) and (max-width:992px){
+    main{
+        background-color: #b2b0bb;
+        padding: 0px;
+    }
+    .one-section{
+        width: auto;
+        height:auto;
+        
+    }
+    .full-blog{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .top-blogs{
+
+    }
+    .single-blog{
+        display: block;
+    }
+    .blog-details{
+        margin-left: 0px;
+    }
+    .full-course{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .single-course{
+        margin-bottom: 20px;
+    }
+    .two-section-course{
+        width: auto;
+        height: auto;
+        
+    }
+}
+
 
